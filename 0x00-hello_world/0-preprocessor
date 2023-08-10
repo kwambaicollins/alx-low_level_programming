@@ -1,2 +1,2 @@
-#!/bin/bash if [ -z "$CFILE" ]; then echo "Error: CFILE variable is not set." 
-fi cpp -E "$CFILE" -o c
+#!/bin/bash
+gcc -E $CFILE -o c
