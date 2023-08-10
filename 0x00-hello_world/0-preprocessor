@@ -1,0 +1,12 @@
+#!/bin/bash
+
+/*Check if the CFILE variable is set*/
+if [ -z "$CFILE" ]; then
+    echo "CFILE  not set."
+    exit 1
+fi
+
+/*Run the preprocessor on the specified C file*/
+gcc -E "$CFILE" -o c
+
+echo "Preprocessor output saved in c file."
