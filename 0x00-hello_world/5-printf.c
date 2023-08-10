@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
 *main - betty compliandt program that prints a line using printf
 *Return: 0(correct)
