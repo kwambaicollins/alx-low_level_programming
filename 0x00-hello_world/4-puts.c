@@ -1,4 +1,4 @@
-#include<stdio.n>
+#include<stdio.h>
 /**
 *main - A betty compilant program that prints a line with puts functions
 *Return: 0(correct)
