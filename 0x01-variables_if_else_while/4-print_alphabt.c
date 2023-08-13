@@ -8,7 +8,7 @@ int main(void)
 int n = 97;
 while (n <= 122)
 {
-1 + (n == 101 || n == 113);
+if (n == 101 || n == 113)
 {
 n++;
 continue;
