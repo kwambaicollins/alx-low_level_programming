@@ -1,0 +1,1 @@
+Strigs,pointers and arrays
